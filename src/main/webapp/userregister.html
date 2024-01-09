@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Registration Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('pexels-pixabay-276005.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.8);
+      width: 400px;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    input[type="button"]{
+		width: 100px;
+      padding: 10px;
+      border-radius: 4px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      margin-top: 8px;
+      margin-right: 8px;
+	}
+    input[type="submit"] {
+      width: 100px;
+      padding: 10px;
+      margin: 8px;
+      border-radius: 4px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover ,input[type="button"]:hover{
+      background-color: #0056b3;
+    }
+    .mybtn{
+      display: flex;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration</h2>
+    <form method="post" action="userregister">
+      <input type="text" name="t1" placeholder="Username" required><br>
+      <input type="password" name="t2" placeholder="Password" required><br>
+      <div class="mybtn">
+  <input type="submit" value="Register">
+       <a href="userlogin.html"><input type="button" value="Login" ></a>
+</div>
+    </form>
+   
+  </div>
+</body>
+</html>

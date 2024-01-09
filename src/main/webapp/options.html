@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Options</title>
+<style>*{
+	margin:0;
+	padding: 0;}
+	html,body{
+	width: 100%;
+	height: 100%;
+	}
+	body{
+	font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E1F0C4;
+}
+
+h1 {
+  color:#4F6D7A;
+  width: 800px;
+  height: 50px;
+  padding-top: 10px;
+	background-color: #C0D6DF;
+}
+
+.button-container {
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+</style>
+</head>
+<body>
+  <h1>Online Book Management System | Admin Panel</h1>
+  <div class="button-container">
+	 <h2>Do you want to add a book or remove a book?</h2>
+    <button type="button" id="insert-button"><a href="InsertBook.html">Insert</a></button>
+    <button type="button" id="delete-button"><a href="DeleteBook.html">Delete</a></button>
+  </div>
+</body>
+</html>
